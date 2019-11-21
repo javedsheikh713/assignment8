@@ -40,7 +40,7 @@ public class LoginController {
 
 	public Response authenticateUser(@RequestBody UserRequest login) {
 
-		 String captcha =null;
+		
 		// request.getSession().getAttribute("captcha_security").toString();
 		System.out.println("capthcaasa  j;l ===== ");
 		//LoginResponse response = userService.validateUser(login);
